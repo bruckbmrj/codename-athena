@@ -176,4 +176,17 @@ p{
 	margin-bottom: 30px;
 }
 
+/* o canal */
+.canal{
+	width: 100%;
+	background: #000;
+	padding: 40px 0;
+}
 
+.canal_lista li:last-child{
+	margin-top: 20px;
+}
+
+.canal p{
+	color: #fff;
+}
