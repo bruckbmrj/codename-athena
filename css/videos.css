@@ -1,0 +1,24 @@
+.interna_videos{
+	background: url('../img/bg-videos.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.videos-item{
+	padding-top: 60px;
+}
+
+.canal-chamada{
+	padding-top: 40px;
+}
+
+.canal-chamada p{
+    text-align: center;
+}
+
+.canal-chamada img{
+	display: inline-block;
+}
+
+p.texto-canal {
+    padding-bottom: 40px;
+}
