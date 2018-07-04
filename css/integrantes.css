@@ -1,0 +1,70 @@
+.interna_integrantes{
+	background: url('../img/bg-integrantes.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.integ-inter{
+	width: 100%;
+	height: 215px;
+	position: relative;
+}
+
+.integ-inter mark{
+	color: #fff;
+	background-color: rgba(0, 0, 0, .6);
+	text-align: center;
+    display: block;
+    padding: 5px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+}
+
+.bruno-b{
+	background: url('../img/integrantes/bruno-b-1.jpg') no-repeat center;
+	background-size: cover;
+}
+.bruno-b:hover{
+	background: url('../img/integrantes/bruno-b-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+.jonathan{
+	background: url('../img/integrantes/jonathan-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.jonathan:hover{
+	background: url('../img/integrantes/jonathan-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+.yago{
+	background: url('../img/integrantes/yago-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.yago:hover{
+	background: url('../img/integrantes/yago-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+.matheus{
+	background: url('../img/integrantes/matheus-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.matheus:hover{
+	background: url('../img/integrantes/matheus-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+.bruno-o{
+	background: url('../img/integrantes/bruno-o-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.bruno-o:hover{
+	background: url('../img/integrantes/bruno-o-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+
+
