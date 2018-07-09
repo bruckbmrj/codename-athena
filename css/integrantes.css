@@ -21,6 +21,11 @@
     font-weight: bold;
 }
 
+.sub-integ {
+    padding-top: 40px;
+    clear: both;
+}
+
 .bruno-b{
 	background: url('../img/integrantes/bruno-b-1.jpg') no-repeat center;
 	background-size: cover;
@@ -66,5 +71,22 @@
 	background-size: cover;
 }
 
+.lineu{
+	background: url('../img/integrantes/lineu-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.lineu:hover{
+	background: url('../img/integrantes/lineu-2.JPG') no-repeat center;
+	background-size: cover;
+}
+
+.caio{
+	background: url('../img/integrantes/caio-1.JPG') no-repeat center;
+	background-size: cover;
+}
+.caio:hover{
+	background: url('../img/integrantes/caio-2.JPG') no-repeat center;
+	background-size: cover;
+}
 
 
