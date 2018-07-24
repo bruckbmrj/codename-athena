@@ -1,6 +1,23 @@
 /* estilo para tablets */
 @media only screen and (min-width: 768px) and (max-width: 959px){
+/* passos */
+.passos:after{
+    right: 70px;
+}
 
+.passos-lista li{
+	padding: 0 10px;
+}
+
+/* footer */
+.footer_redes ul li a{
+	padding: 6px;
+}
+
+.footer_redes ul li a img{
+	width: 26px;
+	height: 26px;
+}
 
 }
 
@@ -36,12 +53,46 @@
 	border-color: #f0dd41;
 }
 
+.header_menu ul li a.ativo{
+	border-color: #f0dd41;
+}
+
 /* introdução */
+.introducao h1{
+	font-size: 36px;
+}
+
 .introducao{
 	margin-top: 0px;
-	padding-top: 20px;
+	padding-top: 40px;
 	background: url('../img/bg-main-mobile.jpg') no-repeat center;
 	background-size: cover;
+}
+
+/* Introdução interna */
+.introducao-interna {
+	margin-top: 0px;
+}
+
+/* Call */
+.call{
+	padding-top: 10px;
+}
+
+/* passos */
+.passos:after{
+    display: none;
+}
+
+.passos-lista {
+    padding-top: 30px;
+    overflow: unset;
+}
+
+/* sobre */
+.historia_sobre p, .historia_sobre ul li{
+	font-size: 16px;
+	padding-right: 0px;
 }
 	
 }
