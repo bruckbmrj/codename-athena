@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/contato.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<script src="js/libs/modernizr.custom.45655.js"></script>
 	</head>
 
 	<body>
@@ -46,18 +47,26 @@
 
 		<!-- Mensagem -->
 		<section class="mensagem-contato">
-			<div class="container">
+			<div class="container animar-interno">
 				<h2>Fale Aê!</h2>
-				<form id="form_msg" class="form contato-form grid-8" action="">
-					<label for="nome">Nome</label>
-					<input type="text" id="nome">
-					<label for="email">E-mail</label>
-					<input type="email" id="email">
-					<label for="telefone">Telefone</label>
-					<input type="tel" id="telefone">
-					<label for="espec">Especificações</label>
-					<textarea id="espec"></textarea>
-					<button type="submit" class="btn btn-contato">Enviar</button>
+
+				<form action="enviar.php" method="post" name="form" class="formphp form contato-form grid-8">
+				<label for="nome">Nome</label>
+				<input id="nome" name="nome" type="text">
+				<label for="email">E-mail</label>
+				<input id="email" name="email" type="text">
+				<label for="telefone">Telefone</label>
+				<input id="telefone" name="telefone" type="text">
+
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+				<label for="mensagem">Mensagem</label>
+				<textarea name="mensagem" id="mensagem"></textarea>
+
+				<button id="enviar" name="enviar" type="submit" class="btn btn-contato">Enviar</button>
 				</form>
 
 				<div class="contato-dados grid-8">

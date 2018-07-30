@@ -11,6 +11,26 @@ img{
 	display: block;
 	max-width: 100%;
 }
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
 .btn{
 	border:  3px solid #33c5dc;
 	padding: 10px 30px;
@@ -20,6 +40,7 @@ img{
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .1em;
+	transition: all .5s ease;
 }
 .btn:hover{
 	color: #fff;
@@ -97,6 +118,7 @@ img{
 	font-size: 14px;
 	line-height: 20px;
 	padding: 10px 0;
+	transition: all .2s ease;
 }
 
 .header_menu ul li a:hover{
@@ -341,6 +363,7 @@ img{
 	border: 3px solid #e0cb20;
 	display: block;
 	padding: 10px;
+	transition: all .3s ease;
 }
 
 .footer_redes ul li a:hover{
@@ -351,4 +374,52 @@ img{
 	width: 100%;
 	background: #e0cb20;
 	padding: 20px 0;
+}
+
+/* animações */
+.js .introducao h1,.js .introducao blockquote,
+.js .introducao .btn,.js .animar,.js .animar-interno,
+.js .introducao-interna h1,.js .introducao-interna p
+{
+	opacity: 0;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -25px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -25px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
